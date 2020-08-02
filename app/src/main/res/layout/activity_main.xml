@@ -27,9 +27,10 @@
                     android:layout_weight="1"/>
 
                 <Button
+                    android:id="@+id/viewModelBtn"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Data Binding Lesson"
+                    android:text="View Model Lesson"
                     android:layout_weight="1"/>
 
             </LinearLayout>
@@ -41,15 +42,17 @@
                 android:padding="10dp">
 
                 <Button
+                    android:id="@+id/liveDataBtn"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Data Binding Lesson"
+                    android:text="Live Data Lesson"
                     android:layout_weight="1"/>
 
                 <Button
+                    android:id="@+id/coroutineBtn"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Data Binding Lesson"
+                    android:text="Corountine Lesson"
                     android:layout_weight="1"/>
 
             </LinearLayout>
@@ -61,15 +64,17 @@
                 android:padding="10dp">
 
                 <Button
+                    android:id="@+id/roomLibraryBtn"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Data Binding Lesson"
+                    android:text="Room Library Lesson"
                     android:layout_weight="1"/>
 
                 <Button
+                    android:id="@+id/workManagerBtn"
                     android:layout_width="match_parent"
                     android:layout_height="70dp"
-                    android:text="Data Binding Lesson"
+                    android:text="Work Manager Lesson"
                     android:layout_weight="1"/>
 
             </LinearLayout>
