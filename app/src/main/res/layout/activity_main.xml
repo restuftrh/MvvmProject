@@ -79,6 +79,28 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/retrofitBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Retrofit Lesson"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="Work Manager Lesson"
+                    android:layout_weight="1"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
         </LinearLayout>
 
 

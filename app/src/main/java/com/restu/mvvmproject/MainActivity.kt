@@ -8,6 +8,7 @@ import com.restu.mvvmproject.corountines.CorountineActivity
 import com.restu.mvvmproject.databinding.ActivityMainBinding
 import com.restu.mvvmproject.databinding.DataBindingActivity
 import com.restu.mvvmproject.livedata.LiveDataActivity
+import com.restu.mvvmproject.retrofitwithcorountine.MovieActivity
 import com.restu.mvvmproject.roomlibrary.FilmActivity
 import com.restu.mvvmproject.viewmodel.ViewModelActivity
 import com.restu.mvvmproject.workmanager.WorkManagerActivity
@@ -40,6 +41,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.workManagerBtn.setOnClickListener {
             intent = Intent(applicationContext, WorkManagerActivity::class.java)
+            startActivity(intent)
+        }
+        binding.retrofitBtn.setOnClickListener {
+            intent = Intent(applicationContext, MovieActivity::class.java)
             startActivity(intent)
         }
     }
